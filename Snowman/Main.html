@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snowman</title>
+</head>
+<body>
+    <div class="container">
+        <div class="hat-container">
+          <div class="hat-wrapper">
+            <div class="upper-hat">
+              <div class="white-line"></div>
+            </div>
+            <div class="lower-hat"></div>   
+          </div>
+      
+        </div>
+        <div class="body">
+          <div class="head">
+            <div class="eyes-container">
+              <div class="left-eye"></div>
+              <div class="right-eye"></div>
+            </div>
+          </div>
+          <div class="scarf"></div>
+          <div class="lower-body"></div>
+        </div>
+        
+      </div>
+      
+      <style>
+        body {
+          width: 100%;
+          height: 100vh;
+          background: #AC474B;
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          margin: 0;
+        }
+        
+        .container {
+          width: 20%;
+          height: 50%;
+          display: flex;
+          align-self: center;
+          flex-direction: column;
+          position: relative;
+        }
+        
+        .hat-container {
+          width: 100%;
+          height: 25%;
+          position: relative;
+          top: 4%;
+          z-index: 2;
+          display: flex;
+          justify-content: center;
+          align-items: flex-end;
+          top: 6%
+        }
+        
+        .hat-wrapper {
+          width: 30%;
+          height: 88%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+        }
+        
+        .lower-hat {
+          width: 100%;
+          height: 10%;
+          background: #0E1F2B;
+        }
+        
+        .upper-hat {
+          width: 70%;
+          height: 77%;
+          background: #0E1F2B;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+        
+        .white-line {
+          width: 100%;
+          height: 25%;
+          background: white;
+        }
+        
+        .body {
+          position: relative;
+          width: 100%;
+          height: 70%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          bottom: 5%
+        }
+        
+        .body .head {
+          width: 30%;
+          height: 65%;
+          background: white;
+          border-radius: 50%;
+          position: relative;
+          top: 9%;
+          padding: 0 0 0 0;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+        
+        .head .eyes-container {
+          width: 80%;
+          height: 30%;
+             position: relative;
+          bottom: 13%;
+          display: flex;
+          align-items: center;
+          justify-content: space-around;
+        }
+        
+        .eyes-container .left-eye {
+          width: 25%;
+          height: 50%;
+          background: #0E1F2B;
+          border-radius: 50%;
+        }
+        
+        .eyes-container .right-eye {
+          width: 25%;
+          height: 50%;
+          background: #0E1F2B;
+          border-radius: 50%;
+        }
+        
+        .scarf {
+          position: absolute;
+          width: 31%;
+          height: 6%;
+          background: #FFA63F;
+          bottom: 53%;
+          border: 4px solid #AC474B;
+          border-radius: 15px;
+        }
+        
+          .body .lower-body {
+          width: 50%;
+          height: 100%;
+          background: white;
+          border-radius: 50%;
+        }
+      </style>
+      
+      <!-- OBJECTIVE -->
+      <!-- Write HTML/CSS in this editor and replicate the given target image in the least code possible. What you write here, renders as it is -->
+      
+      <!-- SCORING -->
+      <!-- The score is calculated based on the number of characters you use (this comment included :P) and how close you replicate the image. Read the FAQS (https://cssbattle.dev/faqs) for more info. -->
+      
+      <!-- IMPORTANT: remove the comments before submitting -->
+</body>
+</html>
